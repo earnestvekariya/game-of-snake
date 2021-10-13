@@ -42,6 +42,7 @@ gotoxy(38,18);
 printf("3)hard");
 gotoxy(39,19);
 printf("4)professional");
+
 ch=getch();
 if(ch=='1')
 {s=400;}
@@ -156,6 +157,7 @@ exit:
 clrscr();
 gotoxy(32,11);
 printf("do you want to quit(y/n)");
+printf("Hello here are new changes")
 ch=getch();
 if(ch=='n')
 {goto start;}
